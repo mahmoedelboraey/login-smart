@@ -1,0 +1,17 @@
+
+body{
+    background-color: #24353f;
+    color: #212529;
+}
+h1 {
+    color: #17a2b8;
+    font-size: 2.5rem;
+}
+.title{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 75%;
+    margin: auto;
+    
+}
+
+

@@ -1,0 +1,75 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="py-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h1>Smart Login System</h1>
+                <div class="form">
+                    <input id="inputNmae" type="text" class="form-control w-50 m-auto my-2" placeholder="Enter your email">
+                    <input id="inputPassword" type="password" class="form-control w-50 m-auto my-2" placeholder="Enter your password">
+                    <p id="massegInput" class="text-danger mx-auto text-center d-none">All inputs is required</p>
+                    <div class="my-3 d-grid gap-2 my-2">
+                        <button id="logInBtn"  class="btn btn-outline-info w-50 m-auto" type="button">loge in</button>
+                        <p id="SignUp"  class="text-white bt">Don’t have an account?  <a href="./signeup.html" class="text-white " >Sign Up</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Document</title>
+</head>
+<body >
+    <header class="bg-black fixed-top">
+        <div class="container d-flex justify-content-center  py-4">
+            <h2 class="mb-0 text-white">Smart Login System</h2>
+        </div>
+    </header>
+    <section>
+        <div class="container min-vh-100">
+            <form class="w-75 mx-auto mb-5 text-white-50 bg-black pb-2 p-5 rounded-3">
+                <h2 class="text-white mb-4">Enter your  login credentials: </h2>
+                <div class="mb-3">
+                    <label for="userEmail" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="userEmail">
+                </div>
+                <div class="mb-3">
+                    <label for="userPassword" class="form-label">Password:</label>
+                    <input type="password" class="form-control" id="userPassword">
+                </div>
+                <button id="loginBtn" type="submit" class="btn btn-primary">Login</button>
+                <p id="successMs" class="bg-success rounded-2 my-2 p-2 text-white text-capitalize d-none">success regiected To login page</p>
+                <p id="errorMs" class="alert alert-danger rounded-2 my-2 p-2  text-capitalize d-none">Exit email alrady exists</p>
+                <p class="my-2 text-center">Don't have acount <a href="./signeup.html" class="btn btn-success">Regiest now </a></p>
+            </form>
+
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
+
+<p id="mssCategory" class="alert alert-danger d-none">Lorem ipsum dolor sit amet.</p>

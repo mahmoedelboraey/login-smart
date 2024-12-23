@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sigenup.css">
+    <title>Document</title>
+</head>
+<body >
+    <header class="bg-black fixed-top">
+        <div class="container d-flex justify-content-center  py-4">
+            <h2 class="mb-0 text-white">Smart Login System</h2>
+        </div>
+    </header>
+    <section>
+        <div class="container min-vh-100">
+            <form class="w-75 mx-auto mb-5 text-white-50 bg-black pb-2 p-5 rounded-3">
+                <h2 class="text-white mb-4">Enter your  regiestreation credentials: </h2>
+                <div class="mb-3">
+                    <label for="userName" class="form-label">Name:</label>
+                    <input type="text" class="form-control" id="userName">
+                    <p id="mssName" class="alert alert-danger py-2 d-none">the name He should first character capital</p>
+                </div>
+                <div class="mb-3">
+                    <label for="userEmail" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="userEmail">
+                </div>
+                <div class="mb-3">
+                    <label for="userPassword" class="form-label">Password:</label>
+                    <input type="password" class="form-control" id="userPassword">
+                </div>
+                <button type="button" id="regiestBtn" class="btn btn-primary">Regiest</button>
+                <p id="successMs" class="bg-success rounded-2 my-2 p-2 text-white text-capitalize d-none">success regiected To login page</p>
+                <p id="errorMs" class="alert alert-danger rounded-2 my-2 p-2  text-capitalize d-none">Exit email alrady exists</p>
+                <p class="my-2 text-center">Alredy regiest? <a href="./index.html" class="btn btn-success">login now </a></p>
+            </form>
+
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>
